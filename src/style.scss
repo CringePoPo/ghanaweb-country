@@ -1,0 +1,271 @@
+$deepBrown :#9e7241;
+$lightBrown:#c7ab8c;
+
+.google-ad iframe{
+    margin-bottom: 15px;
+}
+hr{
+    margin-bottom: 15px ;
+    border: 2px solid rgba($lightBrown, $alpha: 0.5) ;
+    border-radius: 100px;
+}
+#medsection1 iframe{
+    border-radius: 10px;
+}
+.country-medsection{
+    margin: 0 15px 15px 15px !important;
+}
+.map-section hr{
+    margin-top: 15px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background: $lightBrown;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 0px;
+}
+// Ghana banner
+.ghana-banner{
+    margin: 15px 0;
+    background-image: url(../img/dipoIMG.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+border-radius: 20px;
+height: 300px;
+position: relative;
+overflow: hidden;
+
+.img-bg{
+    background-image: url(../img/topBanFxImg.png);
+    width: 100%;
+    height: 110px;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+bottom: 0;
+}
+.ghana-name{
+    background-color: #fff;
+    width: 160px;
+    padding: 3px;
+    border-radius: 100px;
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    p{
+        font-size: 18px;
+        margin: 0;
+        font-weight: 700;
+    }
+    &:after{
+        content: '';
+        display: inline-block;
+        background-image: url(../img/ghana-flag.png);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: -30px;
+    top: -23px;
+    }
+}
+}
+
+.background-info-ghana{
+    margin: 15px 0;
+ 
+    .background-content-wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+
+    .background-content{
+        border: 2px solid $lightBrown;
+        padding: 25px 15px;
+        width: 223.33px;
+        border-radius: 30px;
+    &-name{
+        span{
+            a{
+                color: $lightBrown !important;
+            }
+        }
+    }
+    &-language{
+        span{
+            a{
+                color: $lightBrown !important;
+            }
+        }
+    }
+    }
+}
+// Bg info title 
+.background-info-title{
+    color: $lightBrown;
+    width: 290px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    border: 2px solid $lightBrown;
+    // display: flex;
+    position: relative;
+    h2{
+        text-align: right;
+        margin: 5px 15px 5px 0;
+    }
+    .info-title-svg{
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+position: absolute;
+left: -5px;
+top: -10px;
+display: grid;
+place-items: center;
+
+        .img-container{
+            width: 40px;
+            height: 40px;
+            background-color: $deepBrown;
+            display: grid;
+            border-radius: 100px;
+            place-items: center;
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
+
+// Summary 
+.ghana-summary{
+    .background-info-title{
+
+        width: 160px;
+        
+    }
+    p{
+        a{
+            color: $lightBrown !important;
+        }
+    }
+}
+// More info GHana
+.more-info-ghana{
+    margin-top: 15px;
+
+    .background-info-title{
+        width: 220px;
+    }
+    .more-info-content{
+        p{
+            a{
+                color: $lightBrown !important;
+            }
+        }
+    }
+}
+
+.info-display{
+    margin-top: 15px ;
+    border-radius: 20px;
+    border: 2px solid $lightBrown;
+    display: flex;
+    overflow: hidden;
+    &-img{
+        img{
+            width: 200px;
+            height: 175.5px;
+            object-fit: cover;
+
+        }
+    }
+    &-content{
+        padding: 10px 15px;
+        p{
+            a{
+                color: $lightBrown !important;
+            }
+        }
+       
+    }
+}
+
+#rightsection{
+    .first-ad img, .skyscraper-ad img{
+        width: 300px;
+
+    }
+    .first-ad img{
+        height: 250px;
+    }
+    .skyscraper-ad img{
+        height: 600px;
+    }
+}
+.home-demo
+{
+   position: relative; 
+   margin-bottom: 15px;
+   .pop-over{
+    display: none;
+    position: absolute;
+    z-index: 200;
+    top: 190px;
+    background-color: $deepBrown;
+    border-radius: 0 100px 100px 0;
+    padding: 5px 10px;
+    // animation-name: fadeIn ;
+    // animation-duration:  1s ;
+    // animation-timing-function: ease-in;
+    p{
+        font-size: 18px;
+        margin: 0;
+        color: #fff;
+    }
+}
+.owl-stage{
+    position: relative;
+}
+    .item {
+        background: #E8E0D9;
+        height: 370px;
+        position: relative;
+        z-index: 190;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        overflow: hidden;
+        .do-you-know-img{
+            img{
+                height: 230px;
+                object-fit: cover;
+            }
+        }
+        
+        .do-you-know-content{
+            padding: 15px;
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+} 
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

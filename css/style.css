@@ -1,0 +1,234 @@
+.google-ad iframe {
+  margin-bottom: 15px;
+}
+
+hr {
+  margin-bottom: 15px;
+  border: 2px solid rgba(199, 171, 140, 0.5);
+  border-radius: 100px;
+}
+
+#medsection1 iframe {
+  border-radius: 10px;
+}
+
+.country-medsection {
+  margin: 0 15px 15px 15px !important;
+}
+
+.map-section hr {
+  margin-top: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #c7ab8c;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 0px;
+}
+
+.ghana-banner {
+  margin: 15px 0;
+  background-image: url(../img/dipoIMG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 20px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.ghana-banner .img-bg {
+  background-image: url(../img/topBanFxImg.png);
+  width: 100%;
+  height: 110px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+}
+.ghana-banner .ghana-name {
+  background-color: #fff;
+  width: 160px;
+  padding: 3px;
+  border-radius: 100px;
+  position: absolute;
+  left: 50px;
+  bottom: 40px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.ghana-banner .ghana-name p {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+}
+.ghana-banner .ghana-name:after {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/ghana-flag.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: -30px;
+  top: -23px;
+}
+
+.background-info-ghana {
+  margin: 15px 0;
+}
+.background-info-ghana .background-content-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+.background-info-ghana .background-content {
+  border: 2px solid #c7ab8c;
+  padding: 25px 15px;
+  width: 223.33px;
+  border-radius: 30px;
+}
+.background-info-ghana .background-content-name span a {
+  color: #c7ab8c !important;
+}
+.background-info-ghana .background-content-language span a {
+  color: #c7ab8c !important;
+}
+
+.background-info-title {
+  color: #c7ab8c;
+  width: 290px;
+  border-radius: 100px;
+  margin-bottom: 15px;
+  border: 2px solid #c7ab8c;
+  position: relative;
+}
+.background-info-title h2 {
+  text-align: right;
+  margin: 5px 15px 5px 0;
+}
+.background-info-title .info-title-svg {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  position: absolute;
+  left: -5px;
+  top: -10px;
+  display: grid;
+  place-items: center;
+}
+.background-info-title .info-title-svg .img-container {
+  width: 40px;
+  height: 40px;
+  background-color: #9e7241;
+  display: grid;
+  border-radius: 100px;
+  place-items: center;
+}
+.background-info-title .info-title-svg .img-container img {
+  width: 24px;
+  height: 24px;
+}
+
+.ghana-summary .background-info-title {
+  width: 160px;
+}
+.ghana-summary p a {
+  color: #c7ab8c !important;
+}
+
+.more-info-ghana {
+  margin-top: 15px;
+}
+.more-info-ghana .background-info-title {
+  width: 220px;
+}
+.more-info-ghana .more-info-content p a {
+  color: #c7ab8c !important;
+}
+
+.info-display {
+  margin-top: 15px;
+  border-radius: 20px;
+  border: 2px solid #c7ab8c;
+  display: flex;
+  overflow: hidden;
+}
+.info-display-img img {
+  width: 200px;
+  height: 175.5px;
+  object-fit: cover;
+}
+.info-display-content {
+  padding: 10px 15px;
+}
+.info-display-content p a {
+  color: #c7ab8c !important;
+}
+
+#rightsection .first-ad img, #rightsection .skyscraper-ad img {
+  width: 300px;
+}
+#rightsection .first-ad img {
+  height: 250px;
+}
+#rightsection .skyscraper-ad img {
+  height: 600px;
+}
+
+.home-demo {
+  position: relative;
+  margin-bottom: 15px;
+}
+.home-demo .pop-over {
+  display: none;
+  position: absolute;
+  z-index: 200;
+  top: 190px;
+  background-color: #9e7241;
+  border-radius: 0 100px 100px 0;
+  padding: 5px 10px;
+}
+.home-demo .pop-over p {
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+}
+.home-demo .owl-stage {
+  position: relative;
+}
+.home-demo .item {
+  background: #E8E0D9;
+  height: 370px;
+  position: relative;
+  z-index: 190;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.home-demo .item .do-you-know-img img {
+  height: 230px;
+  object-fit: cover;
+}
+.home-demo .item .do-you-know-content {
+  padding: 15px;
+}
+.home-demo .item .do-you-know-content p {
+  font-size: 18px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */
